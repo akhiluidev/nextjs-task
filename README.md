@@ -7,19 +7,22 @@ The application demonstrates product listing, product details, cart functionalit
 
 ---
 
-## Features
+## Implemented Features
 
-- Home Page with Hero Section
+- Login Page
+- Register Page
 - Product Listing Page
-- Search & Filter Functionality
+- Product Search Functionality
+- Product Filter by Category
 - Add to Cart Functionality
 - Cart Page
-- Login & Guest User Handling
+- Dynamic Cart Count
+- Cart Total Price Calculation
 - About Page
-- Contact Page
-- Responsive Design
-- Reusable Components
-- SEO Optimization
+- Contact Us Page
+- Responsive Navigation Bar
+- Guest User Handling
+- Responsive UI Design
 
 ---
 
@@ -28,6 +31,7 @@ The application demonstrates product listing, product details, cart functionalit
 - Next.js
 - TypeScript
 - Tailwind CSS
+- React Hooks
 - Local Storage
 
 ---
@@ -40,8 +44,8 @@ app/
  ├── cart/
  ├── contact/
  ├── login/
- ├── products/
  ├── register/
+ ├── products/
  ├── layout.tsx
  └── page.tsx
 
@@ -93,6 +97,16 @@ http://localhost:3000
 
 ---
 
+## Performance Optimizations
+
+- Implemented `useMemo` for efficient product filtering and reduced unnecessary re-renders
+- Used reusable components to maintain clean and scalable code structure
+- Responsive UI optimized for mobile, tablet, and desktop devices
+- Lightweight application structure for better performance and smooth user experience
+- Used local static product data for faster rendering
+
+---
+
 ## AI Usage
 
 This project was developed with the help of AI tools for improving development speed and code quality.
@@ -109,36 +123,83 @@ This project was developed with the help of AI tools for improving development s
 - Code optimization
 
 ### Approximate AI Usage Time
-- Around 1–2 hours
+- Around 2–3 hours
 
 ---
 
-## Performance Optimizations
+## AI Prompts Used
 
-- Implemented `useMemo` for efficient product filtering and reduced unnecessary re-renders
-- Used reusable components to maintain clean and scalable code structure
-- Responsive UI optimized for mobile, tablet, and desktop devices
-- Lightweight application structure for better performance and smooth user experience
-- Used local static product data for faster rendering
+### Home Page Prompt
+
+```text
+Create a responsive home page for an e-commerce website using Next.js, TypeScript, and Tailwind CSS with hero section and featured products.
+```
+
+### Product Listing Prompt
+
+```text
+Build a product listing page with search and category filter functionality using React hooks and Tailwind CSS.
+```
+
+### Cart Prompt
+
+```text
+Create a shopping cart page with add to cart, remove item, cart count, and total price calculation using localStorage.
+```
+
+### Login Prompt
+
+```text
+Create a responsive login page using Next.js and Tailwind CSS with localStorage authentication handling.
+```
+
+### Register Prompt
+
+```text
+Build a register page with form validation using React state and TypeScript.
+```
+
+### Navbar Prompt
+
+```text
+Generate a responsive navbar with cart icon, dynamic cart count, and navigation links using Tailwind CSS.
+```
+
+### About Page Prompt
+
+```text
+Create an About Us page for an online shopping website with responsive design and modern UI.
+```
+
+### Contact Page Prompt
+
+```text
+Build a responsive contact page with form fields and company information using Tailwind CSS.
+```
+
+### SEO Prompt
+
+```text
+Add SEO optimization to a Next.js project including page title, meta description, and proper heading structure.
+```
+
+### Responsive Design Prompt
+
+```text
+Improve the responsiveness of the e-commerce website for mobile, tablet, and desktop devices using Tailwind CSS.
+```
 
 ---
 
-## Implemented Features
+## Future Improvements
 
-- Login Page
-- Register Page
-- Product Listing Page
-- Product Search Functionality
-- Product Filter by Category
-- Add to Cart Functionality
-- Cart Page
-- Dynamic Cart Count
-- Cart Total Price Calculation
-- About Page
-- Contact Us Page
-- Responsive Navigation Bar
-- Guest User Handling
-- Responsive UI Design
+- Product quantity increment and decrement functionality
+- Order summary and checkout page
+- Dark mode implementation
+- Product sorting options
+- User profile management
+- Persistent cart synchronization
+- Advanced search and filter features
 
 ---
 
